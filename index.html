@@ -10,3 +10,37 @@
     <p>This is my first paragraph.</p>
 </body>
 </html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+
+    <h2>Login</h2>
+
+    <!-- The form tag creates the form container -->
+    <form action="/login" method="post">
+
+        <!-- Input field for username or email -->
+        <div>
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" required>
+        </div>
+
+        <!-- Input field for password -->
+        <div>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required>
+        </div>
+
+        <!-- Submit button -->
+        <div>
+            <button type="submit">Log In</button>
+        </div>
+
+    </form>
+
+</body>
+</html>
